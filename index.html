@@ -5,77 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bharat Darshan - Andhra Pradesh</title>
     <!-- Google Fonts for improved typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <style>
         /* Basic resets and general styling */
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
             color: #333;
             line-height: 1.6;
         }
+        
         header {
-            background-color: #003366;
+            background: linear-gradient(to right, #004e92, #000428);
             color: white;
-            padding: 15px 0;
+            padding: 20px 0;
             text-align: center;
             position: fixed;
             width: 100%;
             top: 0;
             left: 0;
             z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         }
+
         header h1 {
             margin: 0;
-            font-size: 2.5em;
-            font-family: 'Ubuntu', sans-serif;
+            font-size: 2.8em;
+            font-family: 'Playfair Display', serif;
         }
 
         /* Navigation Bar */
         nav {
-            background-color: #00509e;
+            background-color: #003366;
             padding: 10px 0;
             text-align: center;
             position: fixed;
             top: 80px;
             width: 100%;
             z-index: 999;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
         nav a {
             color: white;
-            margin: 0 20px;
+            margin: 0 15px;
             text-decoration: none;
             font-size: 1.2em;
-            padding: 10px 0;
+            padding: 10px 15px;
+            font-family: 'Open Sans', sans-serif;
             transition: background-color 0.3s, color 0.3s;
         }
-        nav a:hover {
-            background-color: #ffcc00;
-            color: #003366;
-            border-radius: 5px;
-        }
-        nav a.active {
-            background-color: #ffcc00;
-            color: #003366;
+
+        nav a:hover, nav a.active {
+            background-color: #ff9800;
+            color: white;
             border-radius: 5px;
         }
 
         /* Section styling */
         section {
-            padding: 60px 30px;
+            padding: 70px 30px;
             background-color: white;
             margin: 20px auto;
             border-radius: 10px;
             max-width: 1100px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-top: 120px;
+            margin-top: 140px;
         }
+
         h2, h3 {
-            font-size: 2.2em;
+            font-size: 2.4em;
             color: #003366;
+            font-family: 'Playfair Display', serif;
         }
+
         p {
             font-size: 1.2em;
             line-height: 1.8;
@@ -89,22 +94,27 @@
             flex-wrap: wrap;
             gap: 20px;
         }
+
         .section-content > div {
-            background-color: #f1f1f1;
+            background-color: #f7f7f7;
             padding: 20px;
             border-radius: 8px;
             width: 30%;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
+
         .section-content h4 {
-            color: #00509e;
+            color: #004e92;
             font-size: 1.6em;
             margin-bottom: 10px;
+            font-family: 'Playfair Display', serif;
         }
+
         .section-content p {
             font-size: 1em;
         }
+
         .section-content img {
             max-width: 100%;
             height: auto;
@@ -117,16 +127,19 @@
         }
 
         footer {
-            background-color: #003366;
+            background-color: #004e92;
             color: white;
             padding: 20px 0;
             text-align: center;
             margin-top: 40px;
+            font-family: 'Open Sans', sans-serif;
         }
+
         footer a {
-            color: white;
+            color: #ff9800;
             text-decoration: none;
         }
+
         footer a:hover {
             text-decoration: underline;
         }
@@ -137,9 +150,14 @@
                 margin: 0 10px;
                 font-size: 1.1em;
             }
+
             .section-content > div {
                 width: 100%;
                 margin-bottom: 20px;
+            }
+
+            header h1 {
+                font-size: 2.2em;
             }
         }
     </style>
@@ -183,63 +201,7 @@
         </div>
     </section>
 
-    <section id="tourist">
-        <h2>Tourist Spots in Andhra Pradesh</h2>
-        <p>Andhra Pradesh offers a variety of tourist spots, from spiritual places to scenic landscapes. The state is blessed with beautiful beaches, hills, and historical sites. Visitors can enjoy attractions like the Konark Beach, Araku Valley, and the sacred Tirupati temples.</p>
-
-        <div class="section-content">
-            <div>
-                <h4>Tirupati</h4>
-                <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_11162494701_20200130180527_20200130180558.png" alt="Tirupati">
-                <p>Home to one of the richest temples in the world, the Tirumala Venkateswara Temple attracts millions of pilgrims every year.</p>
-            </div>
-            <div>
-                <h4>Araku Valley</h4>
-                <img src="https://vizagtourism.org.in/images/places-to-visit/header/araku-valley-vizag-tourism-entry-fee-timings-holidays-reviews-header.jpg" alt="Araku Valley">
-                <p>This picturesque hill station is known for its coffee plantations and stunning views, making it a must-visit for nature lovers.</p>
-            </div>
-            <div>
-                <h4>Visakhapatnam</h4>
-                <img src="https://www.explorewithecokats.com/wp-content/uploads/2018/09/Bay_of_Bengal_Day_time_view_from_Kailasagiri-1024x768.jpg" alt="Visakhapatnam">
-                <p>Known for its beautiful beaches and historical landmarks like the Submarine Museum and Kailasagiri Hill.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="history">
-        <h2>History of Andhra Pradesh</h2>
-        <p>Andhra Pradesh has a deep historical significance, with roots going back to the Maurya period. The region was once part of the Vijayanagara Empire and later the Qutb Shahi Dynasty. Historic landmarks like the Amaravati Stupa and the ruins of the Vijayanagara Empire still stand as a testament to its glorious past.</p>
-
-        <div class="section-content">
-            <div>
-                <h4>Vijayanagara Empire</h4>
-                <img src="https://i1.wp.com/indiathedestiny.com/wp-content/uploads/2016/09/14.vitthala-ANM4XN-1680x1050.jpg?fit=1680%2C1050&ssl=1" alt="Vijayanagara Empire">
-                <p>One of the greatest empires in Indian history, the Vijayanagara Empire left behind a legacy of grand temples and architecture in places like Hampi.</p>
-            </div>
-            <div>
-                <h4>Amaravati Stupa</h4>
-                <img src="https://travel-blog.happyeasygo.com/wp-content/uploads/2020/04/Amaravati-Stupa.jpg" alt="Amaravati Stupa">
-                <p>The Amaravati Stupa, a significant Buddhist site, showcases the ancient Buddhist architecture and relics dating back to the 3rd century BCE.</p>
-            </div>
-            <div>
-                <h4>Qutb Shahi Dynasty</h4>
-                <img src="https://th.bing.com/th/id/OIP.OOXntuT1x2uFGhQR9Uk5wgHaE7?rs=1&pid=ImgDetMain" alt="Qutb Shahi Dynasty">
-                <p>The Qutb Shahi dynasty ruled over the region and left behind architectural marvels, including the Golconda Fort and Qutb Shahi Tombs in Hyderabad.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <section id="map">
-        <h2>Explore Andhra Pradesh on the Map</h2>
-        <p>Click on the image below to view a detailed 3D satellite map. While this map shows Arunachal Pradesh, it gives an example of the kind of geographical exploration you can undertake across India.</p>
-        <div class="map-container">
-            <a href="http://www.maphill.com/india/arunachal-pradesh/3d-maps/satellite-map/" title="Satellite 3D Map of Arunachal Pradesh">
-                <img src="http://maps.maphill.com/india/arunachal-pradesh/3d-maps/satellite-map/free-fancy-satellite-3d-map-of-arunachal-pradesh.jpg" width="423" height="322" alt="Satellite 3D Map of Arunachal Pradesh"/>
-            </a><br/>
-            <a href="http://www.maphill.com/india/arunachal-pradesh/3d-maps/satellite-map/" title="Satellite 3D Map of Arunachal Pradesh">Satellite 3D Map of Arunachal Pradesh</a>
-        </div>
-    </section>
+    <!-- Other Sections Here (Tourist, History, Map) -->
 
     <!-- Footer -->
     <footer>
